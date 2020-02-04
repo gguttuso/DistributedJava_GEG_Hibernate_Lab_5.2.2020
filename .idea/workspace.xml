@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="_web application:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab7b7fe7-dbf5-4525-8fd8-8e7ae88a075f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c580.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c591.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/wctc/SearchServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/wctc/Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/SearchServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/lib/derby-10.14.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/resources/img/coffee_and_cats_coffee_cats.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/resources/img/coffee_and_cats_coffee_cats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/resources/img/coffee_and_cats_coffee_cats.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/resources/img/kitten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/resources/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/view/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/view/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myWebApp/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c411.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c411.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c421.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c421.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/cf0.dat" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="CATEGORY: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="ITEM: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="ITEM_DETAIL: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="PET: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="PET_DETAIL: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="SPECIES: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1X02eot6nszRzpZv9q3LQ3wvQr2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="derby" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/img" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d9d4ec5d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d9d4ec5d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5cc69f26" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f57bf282" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f57bf282" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3d7b431d" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab7b7fe7-dbf5-4525-8fd8-8e7ae88a075f" name="Default Changelist" comment="" />
+      <created>1580168788420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580168788420</updated>
+      <workItem from="1580168791420" duration="5337000" />
+      <workItem from="1580258828045" duration="14232000" />
+      <workItem from="1580398234038" duration="758000" />
+      <workItem from="1580695727407" duration="389000" />
+      <workItem from="1580770923653" duration="7597000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added Tomcat config">
+      <created>1580171010017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580171010017</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Tomcat config">
+      <created>1580171721261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580171721261</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added CSS">
+      <created>1580275317425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580275317425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added Tomcat config" />
+    <MESSAGE value="Added CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CSS" />
+  </component>
+</project>

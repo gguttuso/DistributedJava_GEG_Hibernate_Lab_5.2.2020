@@ -7,5 +7,11 @@
       <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
       <jdbc-url>jdbc:derby:$PROJECT_DIR$/db;create=true</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="itemDatabase" uuid="65c0e231-85e3-4799-8e15-ff6337cbccec">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/db;create=true</jdbc-url>
+    </data-source>
   </component>
 </project>
