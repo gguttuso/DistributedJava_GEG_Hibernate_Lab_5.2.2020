@@ -13,7 +13,7 @@
 <body>
 
 <form action="search" method="get">
-    Search by species <input type="text" name="species">
+    Search by name <input type="text" name="item">
     <br>
     <input type="submit">
 </form>

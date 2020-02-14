@@ -9,7 +9,7 @@ import javax.xml.transform.Result;
 import java.io.IOException;
 import java.sql.*;
 
-@WebServlet(name = "Servlet", urlPatterns = "/list")
+@WebServlet(name = "Servlet", urlPatterns = "/list_old")
 public class Servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 

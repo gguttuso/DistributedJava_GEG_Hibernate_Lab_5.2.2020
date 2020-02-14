@@ -10,91 +10,123 @@ import java.sql.*;
 
 @WebServlet(name = "SearchServlet", urlPatterns = "/search")
 public class SearchServlet extends HttpServlet {
+    private final String DRIVER_NAME = "jdbc:derby:";
+    private final String DATABASE_PATH = "../../db";
+    private final String SCHEMA = "brie";
+    private final String PASSWORD = "000547631";
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         Connection conn = null;
-        PreparedStatement stmt = null;
+        PreparedStatement pstmt = null;
         ResultSet rset = null;
 
-        // the parameter must match the "name" in the html
-        String speciesName = request.getParameter("species");
-
         try {
+            String searchTerm = request.getParameter("name");
+
+            // Load the driver
             Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
 
-            String absPath = getServletContext().getRealPath("/") + "../../db";
+            // Find the absolute path of the database folder
+            String absPath = getServletContext().getRealPath("/") + DATABASE_PATH;
 
-            conn = DriverManager.getConnection("jdbc:derby:" + absPath,
-                    "gguttuso",
-                    "000547631");
+//            StringBuilder sql = new StringBuilder("SELECT pet.nm, pet.age, food.nm");
+//            sql.append(" FROM pet_food, pet, food");
+//            sql.append(" WHERE pet_food.pet_id = pet.pet_id");
+//            sql.append(" AND pet_food.food_id = food.food_id");
+//            sql.append(" AND pet.species_nm = ?");
+//            sql.append(" ORDER BY pet.nm"); // Don't end SQL with semicolon!
 
-            // the question mark is a placeholder of what the user inputs
-            String sql = "select name, age, species_name from pet where species_name = ?";
+            // Build the query as a String
+            StringBuilder sql = new StringBuilder("select name, item_id ");
+            sql.append("from item ");
+            sql.append("join item_detail on (item.item_id = item_detail.item_id)");
+            sql.append("where name = ?"); // Don't end SQL with semicolon!
 
-            // pass the sql with user input -- this is for security purposes
-            stmt = conn.prepareStatement(sql);
+            // Create a connection
+            conn = DriverManager.getConnection(DRIVER_NAME + absPath, SCHEMA, PASSWORD);
+            // Create a statement to execute SQL
+            pstmt = conn.prepareStatement(sql.toString());
+            // Fill the prepared statement params
+            pstmt.setString(1, searchTerm);
+            // Execute a SELECT query and get a result set
+            rset = pstmt.executeQuery();
 
-            stmt.setString(1, speciesName);
+            // Create a StringBuilder for ease of appending strings
+            StringBuilder output = new StringBuilder();
 
-            rset = stmt.executeQuery();
+            // HTML to create a simple web page
+            output.append("<html><head><link type='text/css' rel='stylesheet' href='css/style.css'></head>");
+            output.append("<body>");
 
-            // String Builder is like a container with all of our string pieces (concatenating without "+")
-            StringBuilder sb = new StringBuilder("<html><body>");
+            // Start the table
+            output.append("<table>");
+            // Start a row
+            output.append("<tr>");
+            // Add the headers
+            output.append("<th>Name</th><th>Age</th><th>Favorite Toy</th><th>Weight</th><th>Nickname</th>");
+            // End the row
+            output.append("</tr>");
 
-            sb.append("<ul>");
+            // Loop while the result set has more rows
+            while (rset.next()) {
+                // Start a row
+                output.append("<tr>");
+                // Get the first string (the pet name) from each record
+                String name = rset.getString(1);
+                // Add a cell with the info
+                output.append("<td>" + name + "</td>");
 
-            while(rset.next())
-            {
+                // Get the rest of the pet data and append likewise
+                int item_ID = rset.getInt(2);
+                output.append("<td>" + item_ID + "</td>");
+//                String favToy = rset.getString(3);
+//                output.append("<td>" + favToy + "</td>");
+//                int weight = rset.getInt(4);
+//                output.append("<td>" + weight + "</td>");
+//                String nickname = rset.getString(5);
+//                output.append("<td>" + nickname + "</td>");
 
-                sb.append("<li>");
-                String name = rset.getString("name");
-                int age = rset.getInt("age");
-                String species = rset.getString(3);
-                sb.append(name + "," + age + ", " + species);
-                sb.append("</li>");
+                // End the row
+                output.append("</tr>");
             }
 
-            sb.append("</ul>");
-            sb.append("</body></html>");
+            // Close all those opening tags
+            output.append("</table></body></html>");
 
+            // Send the HTML as the response
             response.setContentType("text/html");
-            response.getWriter().print(sb.toString());
+            response.getWriter().print(output.toString());
 
-        } catch (ClassNotFoundException | SQLException e) {
+        } catch (SQLException | ClassNotFoundException e) {
+            // If there's an exception locating the driver, send IT as the response
+            response.getWriter().print(e.getMessage());
             e.printStackTrace();
         } finally {
-            closeAll(conn,stmt,rset);
-        }
-
-    }
-
-    public static void closeAll(Connection conn, Statement stmt, ResultSet rset) {
-        if (rset != null) {
-            try {
-                rset.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
+            if (rset != null) {
+                try {
+                    rset.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
-        }
-        if (stmt != null) {
-            try {
-                stmt.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
+            if (pstmt != null) {
+                try {
+                    pstmt.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
-        }
-        if (conn != null) {
-            try {
-                conn.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
+            if (conn != null) {
+                try {
+                    conn.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
-
-    }
-
+}

@@ -7,40 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab7b7fe7-dbf5-4525-8fd8-8e7ae88a075f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sql statements/BRIE_CATEGORY.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql statements/BRIE_ITEM.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql statements/BRIE_ITEM_DETAIL.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/ListServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c101.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c111.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c121.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c130.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c141.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c161.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c171.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c200.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c200.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c211.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c211.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c221.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c221.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c31.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c400.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c41.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c411.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c411.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c421.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c421.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c51.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seg0/c580.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c580.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c591.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c591.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seg0/c5a0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c5a0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c5c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c5c0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c5d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c5d1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c71.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c5b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c5b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/SearchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/SearchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/search.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,28 +77,19 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
-        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
         <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
         <item name="PET: table" type="7a557cd6:DerbyImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
         <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
         <item name="PET_DETAIL: table" type="7a557cd6:DerbyImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="petsDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
         <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
         <item name="SPECIES: table" type="7a557cd6:DerbyImplModel$Table" />
       </path>
@@ -180,27 +159,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e876387d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e876387d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@8c033f" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e876387d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7d12387c" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e876387d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@28a3bf7c" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -222,7 +181,11 @@
       <workItem from="1580695727407" duration="389000" />
       <workItem from="1580770923653" duration="8908000" />
       <workItem from="1580861346916" duration="537000" />
-      <workItem from="1580874785137" duration="433000" />
+      <workItem from="1580874785137" duration="883000" />
+      <workItem from="1581305234372" duration="2511000" />
+      <workItem from="1581476629336" duration="3650000" />
+      <workItem from="1581643480178" duration="409000" />
+      <workItem from="1581643992478" duration="3899000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tomcat config">
       <created>1580171010017</created>
@@ -252,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580856310751</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2.4.2020 | 10:01 p.m.">
+      <created>1580875300345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580875300345</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +246,7 @@
     <MESSAGE value="Added Tomcat config" />
     <MESSAGE value="Added CSS" />
     <MESSAGE value="2.4.2020 | 4:44 p.m." />
-    <option name="LAST_COMMIT_MESSAGE" value="2.4.2020 | 4:44 p.m." />
+    <MESSAGE value="2.4.2020 | 10:01 p.m." />
+    <option name="LAST_COMMIT_MESSAGE" value="2.4.2020 | 10:01 p.m." />
   </component>
 </project>
