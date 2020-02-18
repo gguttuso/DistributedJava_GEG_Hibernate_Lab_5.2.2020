@@ -1,5 +1,8 @@
 package edu.wctc;
 
+import edu.wctc.DatabaseUtils;
+import edu.wctc.entity.Item;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -51,14 +54,14 @@ public class ListServlet2 extends HttpServlet {
 
             // Loop while the result set has more rows
             while (rset.next()) {
-                Item pet = new Item();
+                Item item = new Item();
                 item.setId(rset.getInt(1));
                 item.setName(rset.getString(2));
                 itemList.add(item);
             }
 
             request.setAttribute("items", itemList);
-            request.getRequestDispatcher("search2.jsp").forward(request, response);
+            request.getRequestDispatcher("list2.jsp").forward(request, response);
 
         } catch (SQLException | ClassNotFoundException e) {
             // If there's an exception locating the driver, send IT as the response
