@@ -7,10 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab7b7fe7-dbf5-4525-8fd8-8e7ae88a075f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchSerlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +87,16 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/list2.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -174,7 +181,7 @@
       <workItem from="1581982334280" duration="15000" />
       <workItem from="1581982387987" duration="22000" />
       <workItem from="1581982416266" duration="2000" />
-      <workItem from="1582057246571" duration="3955000" />
+      <workItem from="1582057246571" duration="6563000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tomcat config">
       <created>1580171010017</created>
@@ -239,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582060105845</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2.13.2020 | 8:55 p.m.">
+      <created>1582062324495</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582062324495</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

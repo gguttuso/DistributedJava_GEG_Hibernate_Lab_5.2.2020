@@ -27,6 +27,9 @@ public class SearchServlet2 extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rset = null;
 
         try {
             String searchTerm = request.getParameter("name");
@@ -57,13 +60,13 @@ public class SearchServlet2 extends HttpServlet {
             // Loop while the result set has more rows
             while (rset.next()) {
                 Item item = new Item();
-                item.setName(rset.getString(1));
+                item.setName(rset.getString(2));
 //                pet.setAge(rset.getInt(2));
 
                 ItemDetail detail = new ItemDetail();
                 item.setDetail(detail);
 
-                detail.setSize(rset.getString(3));
+                detail.setSize(rset.getString(1));
                 itemList.add(item);
             }
 
