@@ -3,19 +3,19 @@ package edu.wctc;
 import edu.wctc.DatabaseUtils;
 import edu.wctc.entity.Item;
 import edu.wctc.entity.ItemDetail;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet(name = "SearchSerlet2", urlPatterns = "/search2")
-public class SearchSerlet2 extends HttpServlet {
+@WebServlet(name = "SearchServlet2", urlPatterns = "/search2")
+public class SearchServlet2 extends HttpServlet {
 
     private final String DRIVER_NAME = "jdbc:derby:";
     private final String DATABASE_PATH = "../../db";
@@ -29,7 +29,7 @@ public class SearchSerlet2 extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         try {
-            String searchTerm = request.getParameter("speciesName");
+            String searchTerm = request.getParameter("name");
 
             // Load the driver
             Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
@@ -38,10 +38,10 @@ public class SearchSerlet2 extends HttpServlet {
             String absPath = getServletContext().getRealPath("/") + DATABASE_PATH;
 
             // Build the query as a String
-            StringBuilder sql = new StringBuilder("select nm, age, favorite_toy, weight, nickname ");
-            sql.append("from pet ");
-            sql.append("join pet_detail on (pet.pet_id = pet_detail.pet_id)");
-            sql.append("where species_nm = ?"); // Don't end SQL with semicolon!
+            StringBuilder sql = new StringBuilder("select size ");
+            sql.append("from item ");
+            sql.append("join item_detail on (item.item_id = item_detail.item_id)");
+            sql.append("where name = ?"); // Don't end SQL with semicolon!
 
             // Create a connection
             conn = DriverManager.getConnection(DRIVER_NAME + absPath, SCHEMA, PASSWORD);
@@ -52,25 +52,23 @@ public class SearchSerlet2 extends HttpServlet {
             // Execute a SELECT query and get a result set
             rset = pstmt.executeQuery();
 
-            List<Pet> petList = new ArrayList<Pet>();
+            List<Item> itemList = new ArrayList<Item>();
 
             // Loop while the result set has more rows
             while (rset.next()) {
-                Pet pet = new Pet();
-                pet.setName(rset.getString(1));
-                pet.setAge(rset.getInt(2));
+                Item item = new Item();
+                item.setName(rset.getString(1));
+//                pet.setAge(rset.getInt(2));
 
-                PetDetail detail = new PetDetail();
-                pet.setDetail(detail);
+                ItemDetail detail = new ItemDetail();
+                item.setDetail(detail);
 
-                detail.setFavoriteToy(rset.getString(3));
-                detail.setWeight(rset.getInt(4));
-                detail.setNickname(rset.getString(5));
-                petList.add(pet);
+                detail.setSize(rset.getString(3));
+                itemList.add(item);
             }
 
-            request.setAttribute("pets", petList);
-            request.getRequestDispatcher("petSearch.jsp").forward(request, response);
+            request.setAttribute("item", itemList);
+            request.getRequestDispatcher("search2.jsp").forward(request, response);
 
         } catch (SQLException | ClassNotFoundException e) {
             // If there's an exception locating the driver, send IT as the response

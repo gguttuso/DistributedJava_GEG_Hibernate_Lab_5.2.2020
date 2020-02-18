@@ -3,9 +3,18 @@ package edu.wctc.entity;
 public class Item {
     private int id;
     private String name;
+    private ItemDetail detail;
 
     public Item() {
 
+    }
+
+    public ItemDetail getDetail() {
+        return detail;
+    }
+
+    public void setDetail(ItemDetail detail) {
+        this.detail = detail;
     }
 
     public int getId() {
