@@ -15,14 +15,13 @@
 <div class="containter">
     <div class="inside-container">
     <header>
-        <img src="../resources/img/coffee_and_cats_coffee_cats.png" alt="logo">
-        <!--<nav><h3><a href="login.jsp"> login </a></h3></nav>-->
+        <jsp:include page="header.jsp" />
     </header>
 
 <!-- <h1> my store </h1> -->
 <div class="button"><h2><a href="list.jsp"> browse items </a></h2></div>
     </div>
 </div>
-
+<%@include file="footer.jsp"%>
 </body>
 </html>

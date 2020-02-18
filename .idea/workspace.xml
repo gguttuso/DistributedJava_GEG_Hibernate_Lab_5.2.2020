@@ -7,28 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab7b7fe7-dbf5-4525-8fd8-8e7ae88a075f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sql statements/BRIE_CATEGORY.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql statements/BRIE_ITEM.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql statements/BRIE_ITEM_DETAIL.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/ListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c400.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c580.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c580.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c591.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c591.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c5a0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c5a0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c5b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c5b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/SearchServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/SearchServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myWebApp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +171,13 @@
       <workItem from="1581305234372" duration="2511000" />
       <workItem from="1581476629336" duration="3650000" />
       <workItem from="1581643480178" duration="409000" />
-      <workItem from="1581643992478" duration="3899000" />
+      <workItem from="1581643992478" duration="4200000" />
+      <workItem from="1581981755200" duration="56000" />
+      <workItem from="1581982237902" duration="30000" />
+      <workItem from="1581982334280" duration="15000" />
+      <workItem from="1581982387987" duration="22000" />
+      <workItem from="1581982416266" duration="2000" />
+      <workItem from="1582057246571" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tomcat config">
       <created>1580171010017</created>
@@ -222,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580875300345</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2.13.2020 | 8:55 p.m.">
+      <created>1581648913011</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581648913011</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +246,7 @@
     <MESSAGE value="Added CSS" />
     <MESSAGE value="2.4.2020 | 4:44 p.m." />
     <MESSAGE value="2.4.2020 | 10:01 p.m." />
-    <option name="LAST_COMMIT_MESSAGE" value="2.4.2020 | 10:01 p.m." />
+    <MESSAGE value="2.13.2020 | 8:55 p.m." />
+    <option name="LAST_COMMIT_MESSAGE" value="2.13.2020 | 8:55 p.m." />
   </component>
 </project>
