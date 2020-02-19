@@ -15,12 +15,12 @@
 <div class="containter">
     <div class="inside-container">
     <header>
-        <jsp:include page="/header.jsp" />
+        <jsp:include page="/view/header.jsp" />
     </header>
 
 <!-- <h1> my store </h1> -->
 <div class="button"><h2><a href="list.jsp"> browse items </a></h2></div>
-        <%@include file="/footer.jsp"%>
+        <%@include file="/view/footer.jsp"%>
     </div>
 </div>
 

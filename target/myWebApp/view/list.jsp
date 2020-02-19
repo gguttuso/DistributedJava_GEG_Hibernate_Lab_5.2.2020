@@ -17,7 +17,7 @@
     <div class="inside-container">
 
         <header>
-            <jsp:include page="/header.jsp" />
+            <jsp:include page="/view/header.jsp" />
             <nav><h3><a href="login.jsp"> login </a></h3></nav>
         </header>
 <ul>
@@ -47,7 +47,7 @@
 
         <div class="button"><h2><a href="detail.jsp"> add item </a></h2></div>
 
-        <%@include file="/footer.jsp"%>
+        <%@include file="/view/footer.jsp"%>
     </div>
 </div>
 

@@ -17,7 +17,7 @@
 <div class="container">
     <div class="inside-container">
         <header>
-            <jsp:include page="/header.jsp" />
+            <jsp:include page="/view/header.jsp" />
         </header>
 
 <form action="">
@@ -33,7 +33,7 @@
 
 </form>
 
-        <%@include file="/footer.jsp"%>
+        <%@include file="/view/footer.jsp"%>
     </div>
 </div>
 </body>

@@ -32,7 +32,7 @@ public class SearchServlet2 extends HttpServlet {
         ResultSet rset = null;
 
         try {
-            String searchTerm = request.getParameter("name");
+            String searchTerm = request.getParameter("item");
 
             // Load the driver
             Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
@@ -41,7 +41,7 @@ public class SearchServlet2 extends HttpServlet {
             String absPath = getServletContext().getRealPath("/") + DATABASE_PATH;
 
             // Build the query as a String
-            StringBuilder sql = new StringBuilder("select size ");
+            StringBuilder sql = new StringBuilder("select name, size ");
             sql.append("from item ");
             sql.append("join item_detail on (item.item_id = item_detail.item_id)");
             sql.append("where name = ?"); // Don't end SQL with semicolon!
@@ -60,18 +60,18 @@ public class SearchServlet2 extends HttpServlet {
             // Loop while the result set has more rows
             while (rset.next()) {
                 Item item = new Item();
-                item.setName(rset.getString(2));
+                item.setName(rset.getString(1));
 //                pet.setAge(rset.getInt(2));
 
                 ItemDetail detail = new ItemDetail();
                 item.setDetail(detail);
 
-                detail.setSize(rset.getString(1));
+                detail.setSize(rset.getString(2));
                 itemList.add(item);
             }
 
             request.setAttribute("item", itemList);
-            request.getRequestDispatcher("search2.jsp").forward(request, response);
+            request.getRequestDispatcher("view/search2.jsp").forward(request, response);
 
         } catch (SQLException | ClassNotFoundException e) {
             // If there's an exception locating the driver, send IT as the response
