@@ -3,7 +3,7 @@
 
 <html>
 <head>
-    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="../../resources/css/style.css">
     <title>List</title>
     <base href="${pageContext.request.contextPath}/"/>
 </head>
@@ -11,7 +11,7 @@
 <div class="container">
     <div class="inside-container">
         <header>
-            <jsp:include page="/view/header.jsp" />
+            <jsp:include page="/WEB-INF/view/header.jsp" />
         </header>
 
         <table>
@@ -29,7 +29,7 @@
     </div>
 
 
-    <%@include file="/view/footer.jsp"%>
+    <%@include file="/WEB-INF/view/footer.jsp"%>
 </div>
 
 </body>
