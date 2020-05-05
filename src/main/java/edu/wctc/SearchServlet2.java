@@ -1,6 +1,5 @@
 package edu.wctc;
 
-import edu.wctc.DatabaseUtils;
 import edu.wctc.entity.Item;
 import edu.wctc.entity.ItemDetail;
 
@@ -66,7 +65,7 @@ public class SearchServlet2 extends HttpServlet {
                 ItemDetail detail = new ItemDetail();
                 item.setDetail(detail);
 
-                detail.setSize(rset.getString(2));
+                detail.setSize(rset.getDouble(2));
                 itemList.add(item);
             }
 

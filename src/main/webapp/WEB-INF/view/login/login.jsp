@@ -9,7 +9,7 @@
 <html>
 <head>
 
-    <link rel="stylesheet" href="../../resources/css/style.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
     <title>Login</title>
 </head>
 <body>
