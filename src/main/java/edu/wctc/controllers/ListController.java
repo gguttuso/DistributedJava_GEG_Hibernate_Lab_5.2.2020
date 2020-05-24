@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/list")
 public class ListController {
 
-    // Inject the Donut Service
+    // Inject the Item Service
     @Autowired
     private ItemService itemService;
 

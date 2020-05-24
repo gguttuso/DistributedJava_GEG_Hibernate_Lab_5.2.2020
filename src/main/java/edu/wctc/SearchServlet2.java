@@ -1,7 +1,6 @@
 package edu.wctc;
 
 import edu.wctc.entity.Item;
-import edu.wctc.entity.ItemDetail;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -62,11 +61,11 @@ public class SearchServlet2 extends HttpServlet {
                 item.setName(rset.getString(1));
 //                pet.setAge(rset.getInt(2));
 
-                ItemDetail detail = new ItemDetail();
-                item.setDetail(detail);
+//                ItemDetail detail = new ItemDetail();
+//                item.setDetail(detail);
 
-                detail.setSize(rset.getDouble(2));
-                itemList.add(item);
+//                detail.setSize(rset.getDouble(2));
+//                itemList.add(item);
             }
 
             request.setAttribute("item", itemList);

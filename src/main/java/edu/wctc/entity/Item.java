@@ -7,6 +7,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.List;
 
 @Getter
 @Setter
@@ -20,16 +21,19 @@ public class Item {
     @Column(name = "item_id")
     private int id;
 
-    @ManyToOne(cascade = {CascadeType.DETACH,
+    @ManyToMany(cascade = {CascadeType.DETACH,
             CascadeType.MERGE,
             CascadeType.PERSIST,
-            CascadeType.REFRESH})
-    @JoinColumn(name = "item_id")
-    private ItemDetail detail;
+            CascadeType.REFRESH},
+            fetch = FetchType.EAGER)
+    @JoinTable(name = "item_item_detail",
+            joinColumns = @JoinColumn(name = "item_id"),
+            inverseJoinColumns = @JoinColumn(name = "item_detail_id"))
+    private List<ItemDetail> detail;
 
     @NotNull(message = "required")
     @Size(min = 1, max = 30, message = "1-30 characters")
-    @Column(name = "nm")
+    @Column(name = "name")
     private String name;
 
 //    public Item() {

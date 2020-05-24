@@ -57,11 +57,11 @@
 
 
         <!-- Change the final "db" to match your database folder's name -->
-        <property name="jdbcUrl" value="jdbc:derby:#{ servletContext.getRealPath('/') }/../../itemDatabase"/>
+        <property name="jdbcUrl" value="jdbc:derby:#{ servletContext.getRealPath('/') }/../../db"/>
 
         <!-- Change the user and password to match your database -->
-        <property name="user" value="gguttuso"/>
-        <property name="password" value="000547631"/>
+        <property name="user" value="brie"/>
+        <property name="password" value="brie"/>
 
         <!-- these are connection pool properties for C3P0 -->
         <property name="initialPoolSize" value="5"/>
@@ -108,7 +108,7 @@
     <!-- END NEW HIBERNATE CONFIGURATION -->
 
     <!-- Support for component scanning -->
-<!--    <context:component-scan base-package="edu.wctc.dao, edu.wctc.controller, edu.wctc.service"/>-->
+    <context:component-scan base-package="edu.wctc.dao, edu.wctc.controllers, edu.wctc.service"/>
 
     <!-- Support for conversion, formatting, and validation -->
     <mvc:annotation-driven conversion-service="myConversionService"/>

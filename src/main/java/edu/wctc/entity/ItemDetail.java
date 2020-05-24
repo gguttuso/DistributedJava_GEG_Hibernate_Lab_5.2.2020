@@ -11,7 +11,7 @@ public class ItemDetail {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "item_id")
+    @Column(name = "item_detail_id")
     private int id;
 
     @Column(name = "size")

@@ -6,7 +6,43 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab7b7fe7-dbf5-4525-8fd8-8e7ae88a075f" name="Default Changelist" comment="" />
+    <list default="true" id="ab7b7fe7-dbf5-4525-8fd8-8e7ae88a075f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c601.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c611.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c620.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c631.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/d5a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/d5b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/d5e1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c5a0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c5b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/controllers/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/controllers/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/ItemDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/ItemDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/SearchServlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/SearchServlet2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/entity/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/entity/ItemDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/entity/ItemDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/SearchServlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/SearchServlet2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/entity/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/entity/ItemDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/entity/ItemDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/view/list/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/view/list/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +94,12 @@
         <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
         <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
         <item name="ITEM_DETAIL: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="itemDatabase" type="feb32156:DbDataSourceImpl" />
+        <item name="BRIE: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="ITEM_ITEM_DETAIL: table" type="7a557cd6:DerbyImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -151,7 +193,17 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ff1d00f1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ff1d00f1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4e743319" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -198,7 +250,7 @@
       <workItem from="1587926686978" duration="1588000" />
       <workItem from="1588453823571" duration="3105000" />
       <workItem from="1589328473744" duration="4512000" />
-      <workItem from="1590334422386" duration="5188000" />
+      <workItem from="1590334422386" duration="9917000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tomcat config">
       <created>1580171010017</created>
@@ -312,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590341400526</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="5.24.2020 push">
+      <created>1590341566615</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1590341566615</updated>
+    </task>
+    <task id="LOCAL-00018" summary="5.24.2020 12:33p.m.">
+      <created>1590341627214</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590341627214</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +407,9 @@
     <MESSAGE value="3.3.2020 | 9:42 p.m." />
     <MESSAGE value="5.5.2020" />
     <MESSAGE value="5.24.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.24.2020" />
+    <MESSAGE value="5.24.2020 push" />
+    <MESSAGE value="5.24.2020 12:33p.m." />
+    <option name="LAST_COMMIT_MESSAGE" value="5.24.2020 12:33p.m." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
