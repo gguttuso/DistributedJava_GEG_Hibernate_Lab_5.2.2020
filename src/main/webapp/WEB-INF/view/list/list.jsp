@@ -1,14 +1,10 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Brie
-  Date: 1/27/20
-  Time: 5:51 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<c:set var="cp" value="${pageContext.request.contextPath}"/>
 <html>
 <head>
-    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="${cp}/resources/css/style.css">
     <title>Item List</title>
 </head>
 <body>
@@ -20,6 +16,15 @@
             <jsp:include page="/WEB-INF/view/header.jsp" />
             <nav><h3><a href="../login/login.jsp"> login </a></h3></nav>
         </header>
+
+        <table>
+            <th> Name </th>
+            <c:forEach var="tempItem" items="${items}">
+                <tr>
+                    <td> ${tempItem.name}</td>
+                </tr>
+            </c:forEach>
+        </table>
 <ul>
     <li>
         t-shirts<br>

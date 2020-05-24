@@ -14,9 +14,9 @@
         <div class="inside-container">
             <section class="menu">
                 <%--        <a href="index/home"> Home </a><br>--%>
-                <a href="details/detailPage"> Details </a><br>
-                <a href="list/listPage"> List </a><br>
-                <a href="login/loginPage"> Login </a><br>
+                <a href="details/detailPage"> Details </a><br><br>
+                <a href="list/listPage"> List </a><br><br>
+                <a href="login/loginPage"> Login </a><br><br>
             </section>
  <h1> my store </h1>
             <%@include file="/WEB-INF/view/footer.jsp"%>

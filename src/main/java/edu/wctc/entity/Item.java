@@ -1,12 +1,16 @@
 package edu.wctc.entity;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
 @Entity
 @Table(name = "item")
 public class Item {
@@ -28,37 +32,38 @@ public class Item {
     @Column(name = "nm")
     private String name;
 
-    public Item() {
-        // no-arg constructor
-    }
+//    public Item() {
+//        // no-arg constructor
+//    }
 
-    public Item(String name) {
-        this.name = name;
-    }
+//    public Item(String name) {
+//        this.name = name;
+//    }
+//
+//    public ItemDetail getDetail() {
+//        return detail;
+//    }
+//
+//    public void setDetail(ItemDetail detail) {
+//        this.detail = detail;
+//    }
+//
+//    public int getId() {
+//        return id;
+//    }
+//
+//    public void setId(int id) {
+//        this.id = id;
+//    }
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
 
-    public ItemDetail getDetail() {
-        return detail;
-    }
-
-    public void setDetail(ItemDetail detail) {
-        this.detail = detail;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }
 
 
