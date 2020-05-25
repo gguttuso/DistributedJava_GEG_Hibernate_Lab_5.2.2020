@@ -7,41 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab7b7fe7-dbf5-4525-8fd8-8e7ae88a075f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/seg0/c5f0.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c601.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c611.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c620.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c631.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/d5a0.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/d5b1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/d5e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/item-form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c5a0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c5b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/SearchServlet2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/controllers/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/controllers/ListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/ItemDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/entity/ItemDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/dao/ItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/dao/ItemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/dao/ItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/dao/ItemDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/service/ItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/list/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/SearchServlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/SearchServlet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/entity/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/entity/ItemDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/entity/ItemDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/SearchServlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/SearchServlet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/entity/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/entity/ItemDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/entity/ItemDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/controllers/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/controllers/ListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/wctc/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/wctc/service/ItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/controllers/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/classes/edu/wctc/controllers/ListController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/view/list/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/view/list/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myWebApp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/myWebApp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,11 +88,11 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -250,7 +229,7 @@
       <workItem from="1587926686978" duration="1588000" />
       <workItem from="1588453823571" duration="3105000" />
       <workItem from="1589328473744" duration="4512000" />
-      <workItem from="1590334422386" duration="9917000" />
+      <workItem from="1590334422386" duration="12246000" />
     </task>
     <task id="LOCAL-00001" summary="Added Tomcat config">
       <created>1580171010017</created>
@@ -378,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590341627214</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="5.24.2020 6:50p.m.">
+      <created>1590364266399</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590364266399</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,17 +395,7 @@
     <MESSAGE value="5.24.2020" />
     <MESSAGE value="5.24.2020 push" />
     <MESSAGE value="5.24.2020 12:33p.m." />
-    <option name="LAST_COMMIT_MESSAGE" value="5.24.2020 12:33p.m." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/wctc/controllers/ListController.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="5.24.2020 6:50p.m." />
+    <option name="LAST_COMMIT_MESSAGE" value="5.24.2020 6:50p.m." />
   </component>
 </project>

@@ -1,6 +1,6 @@
 package edu.wctc.controllers;
 
-import edu.wctc.entity.Item;
+import edu.wctc.entity.ItemDetail;
 import edu.wctc.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,7 +21,10 @@ public class ListController {
     @RequestMapping("/listPage")
     public String listItems(Model theModel) {
 
-        List<Item> itemList = itemService.getItems();
+        List<ItemDetail> itemList = itemService.getItems();
+
+        // Add the list of donuts to the model
+        theModel.addAttribute("items", itemList);
 
         return "list/list";
     }

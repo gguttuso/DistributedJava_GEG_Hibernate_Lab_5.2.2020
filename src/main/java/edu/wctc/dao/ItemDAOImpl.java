@@ -1,6 +1,7 @@
 package edu.wctc.dao;
 
 import edu.wctc.entity.Item;
+import edu.wctc.entity.ItemDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -15,12 +16,12 @@ import java.util.List;
         private SessionFactory sessionFactory;
 
         @Override
-        public List<Item> getItems() {
+        public List<ItemDetail> getItems() {
             // Get current Hibernate session
             Session session = sessionFactory.getCurrentSession();
 
             // Get list of donuts from query
-            List<Item> itemList = session.createQuery("from Item", Item.class).getResultList();
+            List<ItemDetail> itemList = session.createQuery("from Item", Item.class).getResultList();
 
             // Return results
             return itemList;

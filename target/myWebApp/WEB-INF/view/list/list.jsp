@@ -19,7 +19,7 @@
 
         <table>
             <th> Name </th>
-            <c:forEach var="tempItem" items="${brie}">
+            <c:forEach var="tempItem" items="${items}">
                 <tr>
                     <td> ${tempItem.name}</td>
                 </tr>

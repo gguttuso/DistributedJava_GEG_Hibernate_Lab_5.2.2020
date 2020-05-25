@@ -1,6 +1,7 @@
 package edu.wctc.service;
 
 import edu.wctc.entity.Item;
+import edu.wctc.entity.ItemDetail;
 
 import java.util.List;
 
@@ -9,7 +10,7 @@ public interface ItemService {
 
     Item getItem(int theId);
 
-    List<Item> getItems();
+    List<ItemDetail> getItems();
 
     List<Item> getItemsByName(String theSearchTerm);
 
