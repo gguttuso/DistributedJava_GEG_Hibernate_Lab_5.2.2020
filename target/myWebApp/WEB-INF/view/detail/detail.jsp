@@ -37,6 +37,16 @@
 <%--                        </td>--%>
 <%--                    </tr>--%>
 <%--                </c:forEach>--%>
+
+                <tr>
+                    <td>
+                        <label> Sizes </label>
+                    </td>
+                    <td>
+                        <form:select path="size" items="${itemDetails}" itemLabel="size" itemValue="id"/>
+                    </td>
+                </tr>
+
                 <tr>
                     <td><input type="submit" value="Save" class="button"/></td>
                 </tr>

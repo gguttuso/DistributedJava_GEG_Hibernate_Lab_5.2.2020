@@ -19,6 +19,8 @@ public class DetailController {
     // Inject the Item Service
     @Autowired
     private ItemService itemService;
+
+    @Autowired
     private ItemDetailService itemDetailService;
 
     // this is telling what page to show, in this case start at the root
