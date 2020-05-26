@@ -1,9 +1,11 @@
 package edu.wctc.entity;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+@NoArgsConstructor
 @Data
 @Entity
 @Table(name = "item_detail")
@@ -15,28 +17,29 @@ public class ItemDetail {
     private int id;
 
     @Column(name = "size")
-    private double size;
+    private String size;
 
-    public ItemDetail() {
-        // no-arg constructor
-    }
 
-    public ItemDetail(double size) {
-        this.size = size;
-    }
-    public Double getSize() {
-        return size;
-    }
+//    public ItemDetail() {
+//        // no-arg constructor
+//    }
 
-    public void setSize(Double size) {
-        this.size = size;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+//    public ItemDetail(String size) {
+//        this.size = size;
+//    }
+//    public String getSize() {
+//        return size;
+//    }
+//
+//    public void setSize(String size) {
+//        this.size = size;
+//    }
+//
+//    public int getId() {
+//        return id;
+//    }
+//
+//    public void setId(int id) {
+//        this.id = id;
+//    }
 }

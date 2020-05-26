@@ -11,7 +11,7 @@ body {
 .inside-container {
     padding-top: 3em;
     text-align: center;
-
+    display: inline-block;
 }
 
 

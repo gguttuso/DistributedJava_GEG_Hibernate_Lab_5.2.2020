@@ -2,7 +2,6 @@ package edu.wctc.service;
 
 import edu.wctc.dao.ItemDAO;
 import edu.wctc.entity.Item;
-import edu.wctc.entity.ItemDetail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -12,7 +11,7 @@ import java.util.List;
 @Service
 public class ItemServiceImpl implements ItemService {
 
-    // inject Donut DAO
+    // inject Item DAO
     @Autowired
     private ItemDAO itemDAO;
 
@@ -31,7 +30,7 @@ public class ItemServiceImpl implements ItemService {
     @Override
     // with @Transactional annotation, no need to begin or commit transaction
     @Transactional
-    public List<ItemDetail> getItems() {
+    public List<Item> getItems() {
         // Delegate call to DAO
         return itemDAO.getItems();
     }
@@ -41,6 +40,7 @@ public class ItemServiceImpl implements ItemService {
     public List<Item> getItemsByName(String theSearchTerm) {
         return itemDAO.getItemsByName(theSearchTerm);
     }
+
     @Override
     @Transactional
     public void saveItem(Item theItem) {

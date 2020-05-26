@@ -36,6 +36,7 @@ public class Item {
     @Column(name = "name")
     private String name;
 
+
 //    public Item() {
 //        // no-arg constructor
 //    }
