@@ -1,13 +1,11 @@
 package edu.wctc.controllers;
 
 import edu.wctc.entity.Item;
-import edu.wctc.entity.ItemDetail;
 import edu.wctc.service.ItemDetailService;
 import edu.wctc.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,18 +24,6 @@ public class ListController {
 //    @Autowired
 //    private ItemDetailService itemDetailService;
 
-    @GetMapping("/showAddItemForm")
-    public String showAddItemForm(Model theModel){
-        Item theItem = new Item();
-        ItemDetail theItemDetail = new ItemDetail();
-
-        theModel.addAttribute("aItem", theItem);
-        theModel.addAttribute("aItemDetail", theItemDetail);
-
-        theModel.addAttribute("name", itemDetailService.getItemDetails());
-
-        return "detail/detail";
-    }
 
     // this is telling what page to show, in this case start at the root
     @RequestMapping("/listPage")

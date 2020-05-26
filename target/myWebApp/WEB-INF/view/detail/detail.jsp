@@ -23,10 +23,10 @@
                     <td><label> Name </label></td>
                     <td><form:input path="name"/></td>
                 </tr>
-                <tr>
+<%--                <tr>--%>
 <%--                    <td><label> Size </label></td>--%>
 <%--                    <td><form:input path="size"/></td>--%>
-                </tr>
+<%--                </tr>--%>
 <%--                <c:forEach var="tempItem" items="${items}">--%>
 <%--                    <tr>--%>
 <%--                        <td> ${tempItem.name}</td>--%>

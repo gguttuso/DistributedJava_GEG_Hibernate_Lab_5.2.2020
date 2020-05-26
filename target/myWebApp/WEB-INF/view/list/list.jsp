@@ -61,7 +61,7 @@
 <%--</ul>--%>
 
         <button class="button"
-                onclick="window.location.href='${cp}/showAddItemForm'; return false;">
+                onclick="window.location.href='${cp}/details/showAddItemForm'; return false;">
                   add item
         </button>
 

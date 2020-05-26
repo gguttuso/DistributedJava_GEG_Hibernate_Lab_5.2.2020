@@ -14,7 +14,7 @@
         <div class="inside-container">
             <section class="menu">
                 <%--        <a href="index/home"> Home </a><br>--%>
-                <a href="details/detailPage"> Details </a><br><br>
+                <a href="details/showAddItemForm"> Details </a><br><br>
                 <a href="list/listPage"> List </a><br><br>
                 <a href="login/loginPage"> Login </a><br><br>
             </section>
