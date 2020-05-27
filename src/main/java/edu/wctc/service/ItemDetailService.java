@@ -8,7 +8,7 @@ public interface ItemDetailService {
 
     List<ItemDetail> getItemDetails();
 
-    List<ItemDetail> getItemDetail();
+    ItemDetail getItemDetail(int theId);
 
     void saveItemDetail(ItemDetail theDetailItem);
 

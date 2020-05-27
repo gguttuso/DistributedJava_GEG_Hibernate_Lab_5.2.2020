@@ -17,54 +17,25 @@
         </header>
 
         <!-- item list table -->
-        <form:form action="${cp}/save" modelAttribute="aItem" method="post">
-            <table>
-                <tr>
-                    <td><label> Name </label></td>
-                    <td><form:input path="name"/></td>
-                </tr>
-<%--                <tr>--%>
-<%--                    <td><label> Size </label></td>--%>
-<%--                    <td><form:input path="size"/></td>--%>
-<%--                </tr>--%>
-<%--                <c:forEach var="tempItem" items="${items}">--%>
-<%--                    <tr>--%>
-<%--                        <td> ${tempItem.name}</td>--%>
-<%--                        <td>--%>
-<%--                            <c:forEach var="tempDetail" items="${tempItem.detail}">--%>
-<%--                                ${tempDetail.size}--%>
-<%--                            </c:forEach>--%>
-<%--                        </td>--%>
-<%--                    </tr>--%>
-<%--                </c:forEach>--%>
+        <form:form action="${cp}/details/save" modelAttribute="aItem" method="post">
+            <label> Name </label>
+            <form:input path="name"/>
 
-                <tr>
-                    <td>
-                        <label> Sizes </label>
-                    </td>
-                    <td>
-                        <form:select path="size" items="${itemDetails}" itemLabel="size" itemValue="id"/>
-                    </td>
-                </tr>
+            <br><br>
 
-                <tr>
-                    <td><input type="submit" value="Save" class="button"/></td>
-                </tr>
-            </table>
+            <label> Sizes </label>
+             <form:select path="detail" items="${detailList}" itemLabel="size" itemValue="id">
+            <c:forEach var="tempDetail" items="${items.detail}">
+                ${tempDetail.size}&nbsp;
+            </c:forEach>
+             </form:select>
+
+            <br><br>
+
+            <input type="submit" value="Save" class="button"/>
+
         </form:form>
 
-
-
-<%--<form>--%>
-
-<%--    <label for="name"> name </label>--%>
-<%--    <input type="text" name="name" id="name">--%>
-
-<%--    <br><br>--%>
-
-<%--    <div class="button"><h2><a href="#"> save </a></h2></div>--%>
-
-<%--</form>--%>
         <%@include file="/WEB-INF/view/footer.jsp"%>
     </div>
 </div>

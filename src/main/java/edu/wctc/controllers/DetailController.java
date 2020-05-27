@@ -8,7 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -43,9 +45,53 @@ public class DetailController {
         theModel.addAttribute("aItem", theItem);
         theModel.addAttribute("aItemDetail", theItemDetail);
 
-        theModel.addAttribute("name", itemDetailService.getItemDetails());
+        theModel.addAttribute("detailList", itemDetailService.getItemDetails());
 
         return "detail/detail";
+    }
+
+    @RequestMapping("/save")
+    public String saveItem(@ModelAttribute("aItem") Item item) {
+
+        itemService.saveItem(item);
+
+        // Redirect back to the item list
+        return "redirect:/list/listPage";
+
+    }
+
+    @GetMapping("/delete")
+    public String deleteItem(@ModelAttribute("itemId") int theId) {
+
+        itemService.deleteItem(theId);
+
+        // Redirect back to the item list
+        return "redirect:/list/listPage";
+
+    }
+
+    @RequestMapping("/showUpdateForm")
+    public String showUpdateItemForm(@RequestParam("itemId") int theId,
+                                      Model theModel) {
+        // Get item from the database
+        Item theItem = itemService.getItem(theId);
+
+        // Set item as a model attribute to pre-populate the form
+        theModel.addAttribute("aItem", theItem);
+
+        theModel.addAttribute("itemDetails", itemDetailService.getItemDetails());
+
+        // Redirect back to the add form
+        return "detail/detail";
+    }
+
+    @GetMapping("/search")
+    public String search(@RequestParam("searchTerm") String theSearchTerm, Model theModel) {
+        List<Item> matchingItems = itemService.getItemsByName(theSearchTerm);
+
+        theModel.addAttribute("items", matchingItems);
+
+        return "list/list";
     }
 
 

@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <c:set var="cp" value="${pageContext.request.contextPath}"/>
@@ -17,6 +18,12 @@
             <nav><h3><a href="../login/login.jsp"> login </a></h3></nav>
         </header>
 
+        <!-- search form -->
+        <form:form action="${cp}/details/search" method="GET">
+            Search items <input type="search" name="searchTerm"/>
+            <input type="submit" value="Search" class="add-button"/>
+        </form:form>
+
         <table>
         <tr>
             <th> Name</th>
@@ -29,36 +36,28 @@
                     <c:forEach var="tempDetail" items="${tempItem.detail}">
                         ${tempDetail.size}&nbsp;
                     </c:forEach>
+
+                    <c:url var="updateLink" value="/details/showUpdateForm">
+                        <c:param name="itemId" value="${tempItem.id}"/>
+                    </c:url>
+
+                    <!-- construct a "delete" link with item id -->
+                     <c:url var="deleteLink" value="/details/delete">
+                            <c:param name="itemId" value="${tempItem.id}"/>
+                     </c:url>
+                <td>
+                    <!-- display the update link -->
+                    <a href="${updateLink}">Update</a>
+
+                    <!-- only display the delete link if user is admin-->
+                        <a href="${deleteLink}"
+                           onclick="if (!confirm('Are you sure?')) return false">Delete
+                        </a>
+                </td>
                 </td>
             </tr>
         </c:forEach>
     </table>
-
-
-<%--<ul>--%>
-<%--    <li>--%>
-<%--        t-shirts<br>--%>
-<%--    </li>--%>
-<%--    <a href="#"> edit </a> <a href="#"> delete </a>--%>
-
-<%--    <br><br><br>--%>
-
-<%--    <li> mugs <br>--%>
-<%--    </li>--%>
-<%--    <a href="#"> edit </a> <a href="#"> delete </a>--%>
-
-<%--    <br><br><br>--%>
-
-<%--    <li> prints <br>--%>
-<%--    </li>--%>
-<%--    <a href="#"> edit </a> <a href="#"> delete </a>--%>
-
-<%--    <br><br><br>--%>
-
-<%--    <li> phone cases <br>--%>
-<%--    </li>--%>
-<%--    <a href="#"> edit </a> <a href="#"> delete </a>--%>
-<%--</ul>--%>
 
         <button class="button"
                 onclick="window.location.href='${cp}/details/showAddItemForm'; return false;">

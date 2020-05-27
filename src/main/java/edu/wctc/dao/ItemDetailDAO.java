@@ -8,7 +8,7 @@ public interface ItemDetailDAO {
 
     void saveItemDetail(ItemDetail theItemDetail);
 
-    ItemDetail getItemDetail(int theId);
+    ItemDetail getItemDetail(int Id);
 
     void deleteItemDetail(int theId);
 

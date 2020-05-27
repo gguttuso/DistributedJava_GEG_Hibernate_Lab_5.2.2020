@@ -43,7 +43,7 @@
     </servlet-mapping>
 
     <!-- Show custom error page, commented out for testing -->
-    <!--<error-page>
+    <error-page>
         <location>/errors</location>
-    </error-page>-->
+    </error-page>
 </web-app>

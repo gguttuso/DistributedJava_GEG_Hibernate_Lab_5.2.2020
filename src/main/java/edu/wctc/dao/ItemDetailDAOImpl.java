@@ -36,13 +36,27 @@ public class ItemDetailDAOImpl implements ItemDetailDAO {
         session.saveOrUpdate(theItemDetail);
     }
 
+//    @Override
+//    public ItemDetail getItemDetail(int Id) {
+//
+//    }
+
     @Override
     public ItemDetail getItemDetail(int theId) {
-        // Get current Hibernate session
+         // Get current Hibernate session
         Session session = sessionFactory.getCurrentSession();
 
         return session.get(ItemDetail.class, theId);
+
     }
+
+//    @Override
+//    public ItemDetail getItemDetail(int theId) {
+//        // Get current Hibernate session
+//        Session session = sessionFactory.getCurrentSession();
+//
+//        return session.get(ItemDetail.class, theId);
+//    }
 
     @Override
     public void deleteItemDetail(int theId) {

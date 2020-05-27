@@ -1,21 +1,23 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<c:set var="cp" value="${pageContext.request.contextPath}"/>
 <html>
 <head>
-    <link rel="stylesheet" href="resources/css/style.css">
+    <link type="text/css" rel="stylesheet" href="${cp}/resources/css/style.css">
     <title>Home</title>
 </head>
 <body>
 <div class="container">
 
             <header>
-                <jsp:include page="/WEB-INF/view/header.jsp" />
+                <%@include file="/WEB-INF/view/header.jsp" %>
             </header>
 
         <div class="inside-container">
             <section class="menu">
                 <%--        <a href="index/home"> Home </a><br>--%>
-                <a href="details/showAddItemForm"> Details </a><br><br>
-                <a href="list/listPage"> List </a><br><br>
+                <a href="details/showAddItemForm"> Add Item</a><br><br>
+                <a href="list/listPage"> List Items / Details</a><br><br>
                 <a href="login/loginPage"> Login </a><br><br>
             </section>
  <h1> my store </h1>

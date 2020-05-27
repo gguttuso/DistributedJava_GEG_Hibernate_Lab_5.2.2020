@@ -5,8 +5,6 @@ import edu.wctc.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -31,9 +29,9 @@ public class ListController {
         return "list/list";
     }
 
-    @PostMapping("/save")
-    public String saveItem(@ModelAttribute("item") Item theItem){
-        itemService.saveItem(theItem);
-        return "redirect:/list/listPage";
-    }
+//    @PostMapping("/save")
+//    public String saveItem(@ModelAttribute("item") Item theItem){
+//        itemService.saveItem(theItem);
+//        return "redirect:/list/listPage";
+//    }
 }

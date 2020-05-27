@@ -24,8 +24,8 @@ public class ItemDetailServiceImpl implements ItemDetailService{
 
     @Override
     @Transactional
-    public List<ItemDetail> getItemDetail() {
-        return itemDetailDAO.getItemDetails();
+    public ItemDetail getItemDetail(int Id) {
+        return itemDetailDAO.getItemDetail(Id);
     }
 
     @Override
